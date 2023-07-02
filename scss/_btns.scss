@@ -1,0 +1,19 @@
+.btn {
+  outline: none;
+  border: 2px solid $orange;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  &:hover {
+    background-color: $orange;
+    color: $white;
+  }
+  &__welcome {
+    text-transform: uppercase;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
