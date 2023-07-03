@@ -1,0 +1,27 @@
+.about {
+  &__wrapper {
+    padding-top: 93px;
+    padding-bottom: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    max-width: 605px;
+  }
+  &__title {
+    max-width: 463px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 6px;
+    font-size: 40px;
+  }
+  &__text {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: $gray-text;
+  }
+}

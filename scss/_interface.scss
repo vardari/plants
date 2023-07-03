@@ -9,6 +9,18 @@ body {
   margin: 0 auto;
 }
 
+.white-bg {
+  background-color: $white;
+}
+
 .green {
   color: $green;
+}
+
+.orange {
+  color: $orange;
+}
+
+.title {
+  font-weight: normal;
 }

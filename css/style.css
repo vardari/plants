@@ -323,8 +323,20 @@ body {
   margin: 0 auto;
 }
 
+.white-bg {
+  background-color: #ffffff;
+}
+
 .green {
   color: #499a18;
+}
+
+.orange {
+  color: #e06733;
+}
+
+.title {
+  font-weight: normal;
 }
 
 .btn {
@@ -415,4 +427,30 @@ body {
   color: #636060;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__wrapper {
+  padding-top: 93px;
+  padding-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__info {
+  max-width: 605px;
+}
+.about__title {
+  max-width: 463px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  margin-top: 6px;
+  font-size: 40px;
+}
+.about__text {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
 }/*# sourceMappingURL=style.css.map */
