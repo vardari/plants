@@ -1,0 +1,15 @@
+.contacts {
+  &__wrapper {
+    padding-top: 60px;
+  }
+  &__title {
+    font-weight: bold;
+    text-align: center;
+  }
+  &__block {
+    display: flex;
+  }
+  &__image {
+    margin-top: -50px;
+  }
+}

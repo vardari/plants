@@ -561,4 +561,18 @@ body {
 .prices__image {
   max-width: 152px;
   padding-top: 39px;
+}
+
+.contacts__wrapper {
+  padding-top: 60px;
+}
+.contacts__title {
+  font-weight: bold;
+  text-align: center;
+}
+.contacts__block {
+  display: flex;
+}
+.contacts__image {
+  margin-top: -50px;
 }/*# sourceMappingURL=style.css.map */
