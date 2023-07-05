@@ -345,7 +345,7 @@ body {
 .btn {
   outline: none;
   border: 2px solid #e06733;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: transparent;
   cursor: pointer;
   font-size: 20px;
@@ -360,12 +360,18 @@ body {
   padding-right: 27px;
   padding-top: 14px;
   padding-bottom: 14px;
+  border-radius: 10px;
 }
 .btn__service {
   color: #e06733;
   width: 100%;
   max-width: 161px;
   height: 50px;
+}
+.btn__prices {
+  width: 162px;
+  height: 50px;
+  color: #e06733;
 }
 
 .header__wrapper {
@@ -527,4 +533,32 @@ body {
 .service-card__subtitle {
   color: #717171;
   font-size: 16px;
+}
+
+.prices__wrapper {
+  padding-top: 40px;
+  padding-bottom: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+.prices__title {
+  font-weight: bold;
+}
+.prices__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.prices__subtitle {
+  padding: 0;
+  margin: 0;
+  max-width: 452px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 38px;
+  text-align: end;
+}
+.prices__image {
+  max-width: 152px;
+  padding-top: 39px;
 }/*# sourceMappingURL=style.css.map */
